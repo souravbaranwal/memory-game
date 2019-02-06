@@ -1,0 +1,71 @@
+*:focus {
+  outline: none; }
+
+body {
+  background-image: url(../img/wallpaper_475189803.jpg);
+  background-size: cover;
+  padding: 0; }
+  body .container {
+    text-align: center; }
+
+.infoSection {
+  margin: 20px auto; }
+  .infoSection h2 {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 700;
+    font-size: 35px;
+    color: #2C2C2C; }
+  .infoSection hr {
+    width: 30%;
+    border: 1.5px solid #525252; }
+  .infoSection .movesCounter {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 15px 15px 15px auto;
+    display: inline;
+    color: #8d8d8d; }
+  .infoSection .timeCounterBox {
+    font-family: 'Expletus Sans', cursive;
+    font-weight: 700;
+    font-size: 28px;
+    margin: 15px auto 15px 15px;
+    display: inline;
+    color: #8d8d8d; }
+
+.boxParent {
+  display: grid;
+  grid-template-columns: 120px 120px 120px 120px;
+  grid-gap: 20px;
+  justify-content: center;
+  padding: 15px;
+  background: #EEEEEE;
+  width: 580px;
+  margin: 0 auto;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px #00000048; }
+
+.box {
+  background: #2c2c2c;
+  position: relative;
+  height: 120px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 18px #171717;
+  transition-duration: 0.8s; }
+  .box i {
+    color: #EEEEEE;
+    font-size: 100px;
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 12%; }
+
+.box:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 22px #171717; }
+
+.unhide i {
+  display: inline-block;
+  transition-duration: 2s; }
+
+/*# sourceMappingURL=main.css.map */

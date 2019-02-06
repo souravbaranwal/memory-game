@@ -1,0 +1,86 @@
+
+*:focus {
+    outline: none;
+}
+
+body {
+    background-image: url(../img/wallpaper_475189803.jpg);
+    background-size: cover;
+    padding: 0;
+    .container {
+       
+        text-align: center;
+    }
+}
+.infoSection {
+    margin: 20px auto;
+    h2 {
+        font-family: 'Expletus Sans', cursive;
+        font-weight: 700;
+        font-size: 35px;
+        color: #2C2C2C;
+    }
+    hr {
+        width: 30%;
+        border: 1.5px solid rgb(82, 82, 82);
+    }
+    .movesCounter {
+        font-family: 'Expletus Sans', cursive;
+        font-weight: 700;
+        font-size: 28px;
+        margin: 15px 15px 15px auto;
+        display: inline;
+        color: rgb(141, 141, 141);
+    }
+    .timeCounterBox {
+        font-family: 'Expletus Sans', cursive;
+        font-weight: 700;
+        font-size: 28px;
+        margin: 15px auto 15px 15px;
+        display: inline;
+        color: rgb(141, 141, 141);
+    }
+}
+.boxParent {
+    display: grid;
+    grid-template-columns: 120px  120px  120px  120px ;
+    grid-gap: 20px;
+    justify-content: center;
+    padding: 15px;
+    background: #EEEEEE;
+    width: 580px;
+    margin: 0 auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px #00000048;
+    
+}
+.box {
+    background: rgb(44, 44, 44);
+    position: relative;
+    height:  120px ;
+    border-radius: 15px;
+    box-shadow: 0px 0px 18px #171717;
+    transition-duration: 0.8s;
+    
+    
+    
+    i {
+        color: #EEEEEE;
+        font-size: 100px;
+        display: none;
+        position: absolute;
+        top: 5%;
+        left: 12%;
+    }
+}
+.box:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 22px #171717;
+}
+
+.unhide {
+    i {
+        display: inline-block;
+        transition-duration: 2s;
+    }
+}
